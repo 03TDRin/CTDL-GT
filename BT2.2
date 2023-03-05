@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+long giaithua(int n)
+{
+ if(n==0){
+          return 1;
+          return giaithua(n-1)*n;
+          }
+ int main(){
+            int n, T;
+            print("Nhap n : ");
+            scanf("%d",&n);
+            T=giaithua(n);
+            print("T= %d",T);
+            getch();
+            return 0;
+            }
